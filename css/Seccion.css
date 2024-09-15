@@ -93,3 +93,21 @@ header {
             margin: 20px;
 
 }
+#E_div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
