@@ -42,10 +42,10 @@ body,html{
 }
 .lista_Tipo a:hover {
     text-decoration: underline;
-    color: #00e1ff;
+    color: #ff5050;
 }
 header {
-    background-color: #00e1ff;
+    background-color: #ff5050;
     padding: 3%;
     text-align: center;
     width: 100%; }
