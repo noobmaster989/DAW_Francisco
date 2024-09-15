@@ -6,9 +6,13 @@ body,html{
 
 }body img{
     width: auto;
-    height: auto;
+    height: auto;}
+header {
+    background-color: #ff5050;
+    padding: 3%;
+    text-align: center;
+    width: 100%; }
 
-}
 .contenedor {
     max-width: 1200px; /* Controla el ancho máximo */
     width: 100%; /* Asegura que el contenido ocupe todo el ancho disponible hasta el límite */
@@ -44,8 +48,3 @@ body,html{
     text-decoration: underline;
     color: #ff5050;
 }
-header {
-    background-color: #ff5050;
-    padding: 3%;
-    text-align: center;
-    width: 100%; }
