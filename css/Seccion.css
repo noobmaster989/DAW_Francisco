@@ -49,12 +49,22 @@ header {
     padding: 3%;
     text-align: center;
     width: 100%; }
-.Etiquetas{
-    background-color: rgb(122, 172, 174);
-    border: 2px solid black;  padding: 20px; 
-    margin-left: 5%;
-    margin-right: 50%;
-}
+    .Etiquetas {
+        background-color: rgb(122, 172, 174);
+        border: 2px solid black;
+        padding: 2em; 
+        margin: 1em 5%; 
+        box-sizing: border-box; 
+    }
+    
+    
+    @media (max-width: 768px) {
+        .Etiquetas {
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 1em; 
+        }
+    }
 #Etiqueta_h{
     background-color: #fe9b9b;
 
